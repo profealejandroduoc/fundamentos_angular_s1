@@ -1,0 +1,17 @@
+<!-- A grey horizontal navbar that becomes vertical on small screens -->
+<nav class="navbar navbar-expand-sm bg-dark">
+
+    <div class="container">
+        <!-- Links -->
+        <ul class="navbar-nav">
+            <li *ngFor="let ruta of mis_rutas" class="nav-item">
+                <a href="#" class="nav-link" [routerLink]="ruta.destino">{{ruta.nombre}}</a>
+            </li>
+        </ul>
+    </div>
+
+</nav>
+
+<ul>
+
+</ul>
