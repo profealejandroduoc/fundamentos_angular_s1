@@ -11,6 +11,10 @@ const routes: Routes = [
     component:HomeComponent
   },
   {
+    path:'',
+    component:HomeComponent
+  },
+  {
     path:'ayuda',
     component:AyudaComponent
   },
