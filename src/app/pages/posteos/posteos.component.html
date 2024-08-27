@@ -1,1 +1,15 @@
-<p>posteos works!</p>
+
+<div class="p-3">
+    <h3>Posteos desde Json placeholder</h3>
+
+  
+            <div class="card shadow rounded mb-3" *ngFor="let post of posteos" >
+              <img src="https://images.unsplash.com/photo-1561154464-82e9adf32764?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=60" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">{{post.title}}</h5>
+                <h6 class="card-subtitle mb-2 text-muted ">id:{{post.id}}</h6>
+                <p class="card-text">{{post.body}}</p>
+              </div>
+            </div>
+ 
+</div>
